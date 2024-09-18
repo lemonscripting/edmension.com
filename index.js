@@ -1,3 +1,7 @@
+if (window.location.href !== "https://nurture.edmension.com/en/home") {
+  window.location.href = "https://nurture.edmension.com/en/home";
+}
+
 function completeForm() {
   const csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
   console.log(csrfToken);
